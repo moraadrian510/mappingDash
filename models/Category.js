@@ -18,6 +18,15 @@ Category.init(
     },
   },
   {
+    hooks: {
+      beforeCreate: async (newCategoryData) => {
+        newCategoryData.categoryName = await newCategoryData.categoryName;
+      },
+
+      beforeUpdate: async (updatedCategoryData) => {
+        updatedCategoryData.categoryName = await updatedCategoryData.categoryName;
+      },
+    },
     sequelize,
     timestamps: false,
     freezeTableName: true,
