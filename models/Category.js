@@ -20,11 +20,13 @@ Category.init(
   {
     hooks: {
       beforeCreate: async (newCategoryData) => {
-        newCategoryData.categoryName = await newCategoryData.categoryName;
+        newCategoryData.categoryName =
+          await newCategoryData.categoryName.toLowerCase();
       },
 
       beforeUpdate: async (updatedCategoryData) => {
-        updatedCategoryData.categoryName = await updatedCategoryData.categoryName;
+        updatedCategoryData.categoryName =
+          await updatedCategoryData.categoryName.toLowerCase();
       },
     },
     sequelize,
