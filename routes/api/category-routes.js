@@ -19,7 +19,7 @@ router.get("/", async (req, res) => {
 router.get("/:id", async (req, res) => {
   try {
     const categoryData = await Category.findByPk(req.params.id, {
-      include: [{ model: Category }],
+      include: [{ model: Product }],
     });
   } catch (err) {
     res.status(500).json(err);
@@ -41,7 +41,7 @@ router.post("/", async (req, res) => {
 // update a category by its `id` value
 router.put("/:id", async (req, res) => {
   try {
-    const categoryId = req.params.categoryId;
+    const categoryId = req.params.id;
     const updateCategory = await Category.update(
       {
         category_id: req.body.category_id,
@@ -64,6 +64,8 @@ router.delete("/:id", async (req, res) => {
     if (!categoryData) {
       res.status(500).json({ message: "Category with that id not found !" });
     }
+
+    res.status(200).json({ message: "Category deleted successfully" });
   } catch (err) {
     res.status(500).json(err);
   }
