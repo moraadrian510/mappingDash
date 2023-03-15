@@ -18,6 +18,7 @@ Category.init(
     },
   },
   {
+    // Ask about hooks////////////////////
     // hooks: {
     //   beforeCreate: async (newCategoryData) => {
     //     newCategoryData.category_name =
