@@ -1,7 +1,7 @@
 
 
   <a href="#">
-    <img src="images/Screenshot 2023-03-15 at 11.10.06 AM.png" alt="mappingDash" title="mappingDash"  height="200" width="350" align="right"/>
+    <img src="images/Screenshot 2023-03-15 at 11.10.06 AM.png" alt="mappingDash" title="mappingDash"  height="300" width="400" align="right"/>
 </a>
 
 ![](https://img.shields.io/badge/License-GNU-red.svg)
