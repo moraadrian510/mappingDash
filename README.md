@@ -1,9 +1,16 @@
-# Name of Project
+
+
+  <a href="#">
+    <img src="images/Screenshot 2023-03-15 at 11.10.06 AM.png" alt="mappingDash" title="mappingDash"  height="200" width="350" align="right"/>
+</a>
+
+![](https://img.shields.io/badge/License-GNU-red.svg)
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Built With](#built-with)
+_ [Lisence](#lisence)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -19,7 +26,15 @@
 
 ### Built With
 
-<!-- TODO: List any MAJOR libraries/frameworks (e.g. React, Tailwind) with links to their homepages. -->
+
+
+## Lisence
+
+![](https://img.shields.io/badge/License-GNU-red.svg)
+
+Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
 ## Features
 
