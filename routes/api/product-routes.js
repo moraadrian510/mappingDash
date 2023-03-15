@@ -30,14 +30,14 @@ router.get("/:id", async (req, res) => {
 // create new product
 router.post("/", async (req, res) => {
   try {
-    /* req.body should look like this...
-    {
-      product_name: "Basketball",
-      price: 200.00,
-      stock: 3,
-      tagIds: [1, 2, 3, 4]
-    }
-  */
+    //  req.body should look like this...
+    // {
+    //   product_name: "Basketball",
+    //   price: 200.00,
+    //   stock: 3,
+    //   tagIds: [1, 2, 3, 4]
+    // }
+  
     Product.create(req.body)
       .then((product) => {
         // if there's product tags, we need to create pairings to bulk create in the ProductTag model
@@ -107,7 +107,7 @@ router.put("/:id", (req, res) => {
 
 router.delete("/:id", async (req, res) => {
   try {
-    const productData = await ProductTag.destroy({
+    const productData = await Product.destroy({
       where: { id: req.params.id },
     });
     if (!productData) {

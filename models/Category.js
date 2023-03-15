@@ -18,17 +18,17 @@ Category.init(
     },
   },
   {
-    hooks: {
-      beforeCreate: async (newCategoryData) => {
-        newCategoryData.categoryName =
-          await newCategoryData.categoryName.toLowerCase();
-      },
+    // hooks: {
+    //   beforeCreate: async (newCategoryData) => {
+    //     newCategoryData.category_name =
+    //       await newCategoryData.category_name.toLowerCase();
+    //   },
 
-      beforeUpdate: async (updatedCategoryData) => {
-        updatedCategoryData.categoryName =
-          await updatedCategoryData.categoryName.toLowerCase();
-      },
-    },
+    //   beforeUpdate: async (updatedCategoryData) => {
+    //     updatedCategoryData.category_name =
+    //       await updatedCategoryData.category_name.toLowerCase();
+    //   },
+    // },
     sequelize,
     timestamps: false,
     freezeTableName: true,
