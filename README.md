@@ -95,7 +95,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 
 ## Features
 
-<img src="./images/get_all_products.gif"  width="250" height="150">   
+<img src="./images/get_all_products.gif"  width="250" height="250">   
 
 
 
