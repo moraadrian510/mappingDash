@@ -49,6 +49,8 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+
+
 ### Built With 💻
 
 1.  <img src="images/NODE.JS-logo.png"  width="25" height="20">   [nodeJS](https://nodejs.org/en/docs/)
@@ -85,7 +87,7 @@ Enter PW when promted
 
 ## Lisence
 
-![](https://img.shields.io/badge/License-GNU-red.svg)
+![](https://img.shields.io/badge/License-GNU-red.svg) 
 
 Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
 
@@ -93,7 +95,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 
 ## Features
 
-<!-- TODO: List what specific 'user problems' that this application solves. -->
+
 
 ## Contact
 
@@ -114,3 +116,4 @@ If you would like to contribute or have any questions , please contact me at:
 
 --- 
  Thank You for your feedback!!
+
