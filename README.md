@@ -134,5 +134,5 @@ If you would like to contribute or have any questions , please contact me at:
 3.  <img src="images/YOUTUBE.png"  width="20" height="20"> [YouTube](https://www.youtube.com)
 
 --- 
- Thank You for your feedback!!
+**Thank You for your feedback!!**
 
