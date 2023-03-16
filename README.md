@@ -95,7 +95,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 
 ## Features
 
-
+![](./images/get_all_products.gif)
 
 ## Contact
 
