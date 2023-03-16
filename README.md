@@ -53,6 +53,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ### Built With 💻
 
+
 1.  <img src="images/NODE.JS-logo.png"  width="25" height="20">   [nodeJS](https://nodejs.org/en/docs/)
 
 2.  <img src="images/sequelize-logo.png"  width="20" height="20">   [Sequelize](https://sequelize.org/)
@@ -60,6 +61,9 @@ THEN I am able to successfully create, update, and delete data in my database
 3.  <img src="images/mysql-workbench-icon.png"  width="25" height="20">   [mySql](https://www.mysql.com/about/legal/logos.html)
 
 4.   <img src="images/javascript.png"  width="20" height="20">   [JavaScript]()
+
+5. <img src="images/express.png"  width="20" height="20">   [Express](https://expressjs.com/)
+
 
 ## Installation
 
@@ -94,8 +98,21 @@ Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
 Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
 ## Features
+  
+*Key features of the application are being able to post to the database, get all data from database, updating the database as well as deleting from the database.*
 
-<img src="./images/get_all_products.gif"  width="250" height="250">   
+
+**Products, get-post-put-delete**
+  <img src="./images/productss_get_post_put_delete.gif"  width="250" height="250">
+
+**Getting all categories and tags**
+<img src="./images/get all_categories_tags.gif"  width="250" height="250">
+
+**Posting/updating/deleting categories**
+<img src="./images/categories_ delete-post-get.gif"  width="250" height="250">
+
+**Tags post -update-delete**
+<img src="./images/TAGS-post_update_delete.gif"  width="250" height="250">
 
 
 
