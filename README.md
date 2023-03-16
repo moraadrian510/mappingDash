@@ -99,7 +99,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 
 ## Features
   
-*Key features of the application are being able to post to the database, get all data from database, updating the database as well as deleting from the database.*
+*Key features of the application is being able to post to the database, get all data from database, update the database as well as deleting from the database.*
 
 
 **Products, get-post-put-delete**
