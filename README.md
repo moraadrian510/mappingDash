@@ -67,6 +67,8 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 
+ **Walk through installation**
+ 
 `npm init`
 
 `npm install mysql2`
