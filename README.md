@@ -116,9 +116,12 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 **Tags post -update-delete**
 <img src="./images/TAGS-post_update_delete.gif"  width="250" height="250">
 
-<!-- [![Foo](images/CLICK-HERE-BTN.png)](https://drive.google.com/file/d/1taOnKKhwgrI92KGu1KCUO181kvVL_Q8y/view) -->
+**Click button for full video walk through!!**
+
 
 [<img src="images/CLICK-HERE-BTN.png" width="100">](https://drive.google.com/file/d/1taOnKKhwgrI92KGu1KCUO181kvVL_Q8y/view)
+
+
 
 
 ## Contact
