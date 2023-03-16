@@ -1,6 +1,6 @@
 
 
-  <a 
+  <a>
     <img src="images/Screenshot 2023-03-15 at 11.10.06 AM.png" alt="mappingDash" title="mappingDash"  height="300" width="400" />
 </a>
 
